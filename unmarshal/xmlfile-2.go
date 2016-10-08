@@ -38,7 +38,7 @@ func (s Feed) PrintXMLStruct() {
 }
 func main() {
 	//open file
-	dat, err := ioutil.ReadFile("data/mb-38_e.xml")
+	dat, err := ioutil.ReadFile("data/xmlfile-2.xml")
 	if err != nil {
 		panic(err)
 	}
